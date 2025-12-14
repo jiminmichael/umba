@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="With an Umba account, you have everything you need from your bank. Spend, pay bills, get loans, and cashback all from your phone.">
+    <title>Umba - Digital Banking Made Simple</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>UMBA</h2>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How it Works</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn btn-secondary">Sign In</button>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Digital Banking Made <span class="gradient-text">Simple</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        With an Umba account, you have everything you need from your bank. 
+                        Spend, pay bills, get loans, and cashback all from your phone.
+                    </p>
+                    <div class="hero-cta">
+                        <form class="email-form" id="emailForm">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-primary btn-large">Get Started</button>
+                        </form>
+                        <p class="form-note">Start your 30-day free trial today. No long-term contracts. No catches.</p>
+                    </div>
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="#10B981"/>
+                            </svg>
+                            <span>Secure Banking</span>
+                        </div>
+                        <div class="badge">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="#10B981"/>
+                            </svg>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-interface">
+                                <div class="app-header">
+                                    <div class="app-balance">
+                                        <p class="balance-label">Account Balance</p>
+                                        <h3 class="balance-amount">₦125,000</h3>
+                                    </div>
+                                </div>
+                                <div class="app-features">
+                                    <div class="feature-item">
+                                        <div class="feature-icon">💳</div>
+                                        <span>Pay Bills</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <div class="feature-icon">📱</div>
+                                        <span>Send Money</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <div class="feature-icon">💰</div>
+                                        <span>Get Loan</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <div class="feature-icon">💵</div>
+                                        <span>Save</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="floating-particles" id="particles"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Everything You Need in One App</h2>
+                <p class="section-subtitle">Manage your finances effortlessly with Umba's comprehensive banking features</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-large">💰</div>
+                    <h3>Instant Loans</h3>
+                    <p>Get personal and salary loans in seconds. Apply through the app and receive funds directly to your account.</p>
+                    <a href="#" class="feature-link">Learn more →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">💳</div>
+                    <h3>Current & Savings Accounts</h3>
+                    <p>Open accounts instantly and manage your money with ease. No hidden fees, no paperwork required.</p>
+                    <a href="#" class="feature-link">Learn more →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">📱</div>
+                    <h3>Bank Transfers</h3>
+                    <p>Send money to any bank account instantly. Fast, secure, and reliable transfers 24/7.</p>
+                    <a href="#" class="feature-link">Learn more →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🧾</div>
+                    <h3>Bill Payments</h3>
+                    <p>Pay your utility bills, subscriptions, and more directly from the app. Never miss a payment again.</p>
+                    <a href="#" class="feature-link">Learn more →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🎁</div>
+                    <h3>Cashback Rewards</h3>
+                    <p>Earn cashback on every transaction. The more you use Umba, the more you earn.</p>
+                    <a href="#" class="feature-link">Learn more →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🔒</div>
+                    <h3>Secure & Protected</h3>
+                    <p>Bank-grade security with 2FA, BVN verification, and PIN protection. Your money is always safe.</p>
+                    <a href="#" class="feature-link">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Get started with Umba in three simple steps</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Download the App</h3>
+                    <p>Get Umba from the App Store or Google Play Store. Available for iOS and Android.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Create Your Account</h3>
+                    <p>Sign up in minutes with just your phone number and email. Verify your identity quickly.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start Banking</h3>
+                    <p>Access all banking features instantly. Transfer money, pay bills, get loans, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="500000">0</h3>
+                    <p class="stat-label">Active Users</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="2">0</h3>
+                    <p class="stat-label">Countries</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="24">0</h3>
+                    <p class="stat-label">Hours Support</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="99">0</h3>
+                    <p class="stat-label">% Uptime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Join thousands of satisfied customers banking with Umba</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Umba has completely changed how I manage my finances. Getting loans is so quick and easy!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <h4>Adebayo O.</h4>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The best banking app I've ever used. Paying bills has never been this convenient."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h4>Mary K.</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I love the cashback rewards! I'm earning money just by using the app for my daily transactions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">J</div>
+                        <div class="author-info">
+                            <h4>James T.</h4>
+                            <p>Abuja, Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Banking Better?</h2>
+                <p>Join thousands of users who are already enjoying the future of banking</p>
+                <form class="email-form" id="ctaEmailForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary btn-large">Get Started Free</button>
+                </form>
+                <div class="store-badges">
+                    <a href="#" class="store-badge">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z"/>
+                        </svg>
+                        <div>
+                            <p>Download on the</p>
+                            <h4>App Store</h4>
+                        </div>
+                    </a>
+                    <a href="#" class="store-badge">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z"/>
+                        </svg>
+                        <div>
+                            <p>Get it on</p>
+                            <h4>Google Play</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>UMBA</h3>
+                    </div>
+                    <p>Digital banking made simple for everyone.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Personal Loans</a></li>
+                        <li><a href="#">Business Loans</a></li>
+                        <li><a href="#">Savings Account</a></li>
+                        <li><a href="#">Current Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Umba. All rights reserved.</p>
+                <p>Umba is licensed by the Central Bank of Nigeria and operates in Nigeria and Kenya.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="particles-background"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
